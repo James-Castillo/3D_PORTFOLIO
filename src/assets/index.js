@@ -14,6 +14,7 @@ import ecommerce from "./ecommerce.jpg"
 import buscador from "./buscador.jpg"
 import linkedin from "./linkedin.png"
 import githublink from "./githublink.png"
+import cv from "./CV.pdf"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -78,5 +79,6 @@ export {
   ecommerce,
   buscador,
   linkedin,
-  githublink
+  githublink,
+  cv
 };

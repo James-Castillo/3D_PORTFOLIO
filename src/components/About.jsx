@@ -6,6 +6,8 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import curriculumURL from "../assets/CV.pdf";
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
@@ -36,8 +38,6 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   const handleDownloadCV = () => {
-    const curriculumURL = "URL_de_tu_curriculum.pdf";
-
     window.open(curriculumURL, "_blank");
   };
   return (
