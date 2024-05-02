@@ -229,7 +229,7 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://github.com/James-Castillo/e-commerce-react",
-    web_code_link: "https://easy-market-react.netlify.app/",
+    web_code_link: "https://e-commerce-react-lovat-ten.vercel.app/",
   },
   {
     name: "Buscador de películas",
@@ -256,7 +256,7 @@ const projects = [
     image: buscador,
     source_code_link:
       "https://github.com/James-Castillo/buscador-peliculas-react",
-    web_code_link: "https://buscador-pelicula-react.netlify.app/",
+    web_code_link: "https://buscador-peliculas-react-omega.vercel.app/",
   },
   {
     name: "Crud Angular",

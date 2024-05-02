@@ -1,15 +1,10 @@
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { github } from "../assets";
 import { link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
-  index,
   name,
   description,
   tags,
@@ -18,15 +13,8 @@ const ProjectCard = ({
   web_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-      >
+    <div>
+      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
         <div className="relative w-full h-[230px]">
           <img
             src={image}
@@ -76,31 +64,28 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
-    </motion.div>
+      </div>
+    </div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={`${styles.sectionSubText} `}>Mi Trabajo</p>
         <h2 className={`${styles.sectionHeadText}`}>Proyectos</h2>
-      </motion.div>
+      </div>
 
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
+        <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
           Los siguientes proyectos muestran mis habilidades y experiencia a
           través de Ejemplos del mundo real de mi trabajo. Cada proyecto se
           describe brevemente con enlaces a repositorios de código y
           demostraciones en vivo en él. refleja mi capacidad para resolver
           problemas complejos, trabajar con diferentes tecnologías, y gestionar
           proyectos de forma eficaz.
-        </motion.p>
+        </p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
