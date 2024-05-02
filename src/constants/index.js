@@ -19,6 +19,10 @@ import {
   netflix,
   ecommerce,
   buscador,
+  crudangular,
+  mysqlapi,
+  mongoapi,
+  postgres,
 } from "../assets";
 
 export const navLinks = [
@@ -172,7 +176,8 @@ const projects = [
     ],
     image: socialize,
     source_code_link: "https://github.com/James-Castillo/SocializeX",
-    web_code_link: "https://socialize-g1nhwyhpa-james-castillos-projects.vercel.app/",
+    web_code_link:
+      "https://socialize-g1nhwyhpa-james-castillos-projects.vercel.app/",
   },
   {
     name: "Netflix-Clone",
@@ -221,7 +226,6 @@ const projects = [
         name: "Javascript",
         color: "yellow-text-gradient",
       },
-      
     ],
     image: ecommerce,
     source_code_link: "https://github.com/James-Castillo/e-commerce-react",
@@ -250,8 +254,113 @@ const projects = [
       },
     ],
     image: buscador,
-    source_code_link: "https://github.com/James-Castillo/buscador-peliculas-react",
+    source_code_link:
+      "https://github.com/James-Castillo/buscador-peliculas-react",
     web_code_link: "https://buscador-pelicula-react.netlify.app/",
+  },
+  {
+    name: "Crud Angular",
+    description:
+      "Angular CRUD app que gestiona productos consumiendo una REST API creada por mi con Mysql.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RestApi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: crudangular,
+    source_code_link: "https://github.com/James-Castillo/Crud-Angular",
+    web_code_link: "https://crud-angular-ivory.vercel.app/",
+  },
+  {
+    name: "REST API MySQL",
+    description:
+      "REST API de productos desarrollada con Express y MySQL para realizar operaciones CRUD en una base de datos de productos.",
+    tags: [
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sequalize",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: mysqlapi,
+    source_code_link: "https://github.com/James-Castillo/node-api-rest-mysql",
+    web_code_link: "https://node-api-rest-mysql-production.up.railway.app/api/productos",
+  },
+  {
+    name: "REST API Mongo",
+    description:
+      "REST API de productos desarrollada con Express y MongoDB para realizar operaciones CRUD en una base de datos de libros.",
+    tags: [
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: mongoapi,
+    source_code_link: "https://github.com/James-Castillo/node-api-rest-mongo",
+    web_code_link: "https://node-api-rest-mongo-production-ed76.up.railway.app/books",
+  },
+  {
+    name: "REST API PostgreSQL",
+    description:
+      "REST API desarrollada con Express y PostgreSQl para operaciones CRUD en una base de datos de usuarios utilizando JWT.",
+    tags: [
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: postgres,
+    source_code_link: "https://github.com/James-Castillo/node-auth-jwt-api-rest",
+    web_code_link: "https://node-auth-jwt-api-rest-production-671f.up.railway.app/",
   },
 ];
 

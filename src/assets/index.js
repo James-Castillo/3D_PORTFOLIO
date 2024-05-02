@@ -15,6 +15,10 @@ import buscador from "./buscador.jpg"
 import linkedin from "./linkedin.png"
 import githublink from "./githublink.png"
 import cv from "./CV.pdf"
+import crudangular from "./crud-angular.jpg"
+import mysqlapi from "./mysqlapi.jpg"
+import mongoapi  from "./mongoapi.jpg"
+import postgres from "./postgres.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -80,5 +84,9 @@ export {
   buscador,
   linkedin,
   githublink,
-  cv
+  cv,
+  crudangular,
+  mongoapi,
+  postgres,
+  mysqlapi
 };
