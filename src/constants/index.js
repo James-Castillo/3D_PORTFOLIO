@@ -116,7 +116,7 @@ const experiences = [
     company_name: "Centro Comercial Mercantil del Llano S.A. de C.V.",
     icon: web,
     iconBg: "#383E56",
-    date: "Enero 2023 - Septiembre 2023",
+    date: "Abril 2023 - Septiembre 2023",
     points: [
       "Desarrollo de una aplicación web en HTML5, CSS3, Javascript y PHP",
       "Mantenimiento de la aplicación web",
