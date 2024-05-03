@@ -177,7 +177,7 @@ const projects = [
     image: socialize,
     source_code_link: "https://github.com/James-Castillo/SocializeX",
     web_code_link:
-      "https://socialize-g1nhwyhpa-james-castillos-projects.vercel.app/",
+      "https://socialize-x.vercel.app/",
   },
   {
     name: "Netflix-Clone",
