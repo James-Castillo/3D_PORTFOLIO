@@ -19,6 +19,7 @@ import crudangular from "./crud-angular.jpg"
 import mysqlapi from "./mysqlapi.jpg"
 import mongoapi  from "./mongoapi.jpg"
 import postgres from "./postgres.png"
+import zoom from "./zoom.jpg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -35,6 +36,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png"
 import angular from "./tech/angular.png"
+import nextjs from "./tech/nextjs.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -88,5 +90,7 @@ export {
   crudangular,
   mongoapi,
   postgres,
-  mysqlapi
+  mysqlapi,
+  zoom,
+  nextjs
 };
